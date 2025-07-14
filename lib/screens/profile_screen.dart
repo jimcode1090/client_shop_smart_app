@@ -83,6 +83,8 @@ class ProfileScreen extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
+                Divider(thickness: 1,),
+                const SizedBox(height: 10),
                 TitleTextWidget(label: "General"),
                 const SizedBox(height: 10),
                 CustomListTitle(

@@ -27,6 +27,7 @@ class HomeScreen extends StatelessWidget {
               ),
               value: themeProvider.getIsDarkTheme,
               onChanged: (value) {
+                log("Switch value: $value");
                 themeProvider.setDarkTheme(value);
                 log("Theme state: ${themeProvider.getIsDarkTheme}");
               },
